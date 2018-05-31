@@ -1,0 +1,32 @@
+.filterDiv {
+            
+
+    display: none;
+  }   
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+  .btnHead {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .btnHead:hover {
+    background-color: #ddd;
+  }
+  
+  .btnHead.active {
+    background-color: #666;
+    color: white;
+  }
